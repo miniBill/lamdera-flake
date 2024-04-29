@@ -18,7 +18,7 @@
             "x86_64-linux" = "sha256-jaFWxsuIlzjxl3iFD5mReSGGUULlTxCT7sPmGq8pMeg=";
             "aarch64-linux" = "1yaw2sigxarwz7db8md268a3bcy2rck56ac2bs0y27mpm37rm87i";
             "x86_64-darwin" = "1220290xa504s6a5v19qjx818ramxbqqx8zdyyzqb0hr4a8fx083";
-            "aarch64-darwin" = "14aksdamr7j1a3ad28g1xkgw42qwxg80wl45188rnb1bg8z35zf0";
+            "aarch64-darwin" = "sha256-e4WibkfCj0ZED+KIZbOd2NIjQ0lSBQWk19WU8UoGZkA=";
           };
         };
         packages.lamdera = pkgs.callPackage ./lamdera.nix {
