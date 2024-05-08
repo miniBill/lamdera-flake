@@ -15,10 +15,10 @@
         packages.lamdera-next = pkgs.callPackage ./lamdera.nix {
           version = "next";
           hashes = {
-            "x86_64-linux" = "sha256-jaFWxsuIlzjxl3iFD5mReSGGUULlTxCT7sPmGq8pMeg=";
-            "aarch64-linux" = "1yaw2sigxarwz7db8md268a3bcy2rck56ac2bs0y27mpm37rm87i";
-            "x86_64-darwin" = "1220290xa504s6a5v19qjx818ramxbqqx8zdyyzqb0hr4a8fx083";
-            "aarch64-darwin" = "sha256-e4WibkfCj0ZED+KIZbOd2NIjQ0lSBQWk19WU8UoGZkA=";
+            "x86_64-linux" = "07q9bj8cnvf4xvs6q46vlbq21zk9mnkpd3cxahfj5gck3vhc2ha2";
+            "aarch64-linux" = "0b4b2s30pg5fgzfyj2sq6j5rfqchqsx283zzsxvhvzk1xnis830v";
+            "x86_64-darwin" = "05x9q4walxgrsbs4cyjzpsy0qp6li767zpka9gy30bc47v2gkhqx";
+            "aarch64-darwin" = "0hr09l2mjc5dmsf1vfqd741nzrj3al90mqfnhqdsnzv1rl2f36rn";
           };
         };
         packages.lamdera = pkgs.callPackage ./lamdera.nix {
